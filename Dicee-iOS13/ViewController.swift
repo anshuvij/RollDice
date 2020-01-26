@@ -19,10 +19,8 @@ class ViewController: UIViewController {
 
     @IBAction func rollButtonPressed(_ sender: UIButton) {
         
-        
         diceImageView1.image = diceArray.randomElement()
         diceImageView2.image = diceArray[Int.random(in: 0...5)]
-        
         
         
     }
